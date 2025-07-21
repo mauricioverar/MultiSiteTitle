@@ -42,4 +42,9 @@ public class MultiSiteTitleTest {
     assertTrue(driver.getTitle().contains("Stack Overflow"));
   }
 
+  @Test
+  void validarTituloAWS() {
+    driver.get("https://aws.amazon.com/es/");
+    assertTrue(driver.getTitle().contains("Cloud Computing"));
+  }
 }
