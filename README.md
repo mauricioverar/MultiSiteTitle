@@ -8,14 +8,11 @@ Este proyecto contiene una suite de pruebas automatizadas que valida los título
 src/
 ├── main/
 │   ├── java/
-│       └── cl.kibernumacademy/
-│           ├── model/Task.java
-│           └── service/TaskManager.java
+│       └── cl.kibernumacademy/selenium
 └── test/
     └── java/
-        └── cl.kibernumacademy/
-            └── service/
-                └── TaskManagerTest.java
+        └── cl.kibernumacademy/selenium
+            └── MultiSiteTitleTest.java
 ```
 
 ## 🧰 Tecnologías Utilizadas
